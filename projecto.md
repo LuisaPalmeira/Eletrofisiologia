@@ -17,12 +17,12 @@ Tratamento dos sinais recolhidos com recurso a Python, removendo o ruído de EMG
 
 Após a colocação dos eléctrodos recolheram-se dois sinais. O melhor sinal obtido no Bitalino foi:
 
-![first signal](C:\Users\LuisaPalmeira\Documents\GitHub\Eletrofisiologia\Imagem1.png)
+![first signal](C:\Users\LuisaPalmeira\Documents\GitHub\Eletrofisiologia\Imagem1.png?raw=true)
 
 
 ### Step 2 - Improved signal
 
-![second signal](C:\Users\LuisaPalmeira\Documents\GitHub\Eletrofisiologia\Imagem2.png)
+![second signal](C:\Users\LuisaPalmeira\Documents\GitHub\Eletrofisiologia\Imagem2.png?raw=true)
 
 
 ### Step 3 - Defining the signal processing stages
@@ -37,5 +37,5 @@ Como era muito difícil separar o ECG do EMG nos dois sinais recolhidos, o filtr
 
 ### Step 4 - The final outcome
 
-![final signal](C:\Users\LuisaPalmeira\Documents\GitHub\Eletrofisiologia\Imagem2.png)
+![final signal](C:\Users\LuisaPalmeira\Documents\GitHub\Eletrofisiologia\Imagem2.png?raw=true)
 
