@@ -2,27 +2,23 @@
 
 ## Goal
 
-Vamos usar o Bitalino para 
+Familiarização com o Bitalino e software de aquisição Open Signals: uso do Bitalino para recolha de sinais de ECG poluídos com EMG; 
+Tratamento dos sinais recolhidos com recurso a Python, removendo o ruído de EMG no sinal de ECG aquirido
 
 ## Team
 
-* Ana Lúcia Castro, role
-* Luísa Palmeira, role
-* Maria Portugal, role
+* Ana Lúcia Castro
+* Luísa Palmeira
+* Maria Portugal
 
 ## Process
 
-We passed by the several steps:
-
 ### Step 1 - First signal recorded
 
-In the first step we've recorded data 
-
-This was the first signal extracted from bitalino 
+Após a colocação dos eléctrodos recolheram-se dois sinais. O melhor sinal obtido no Bitalino foi:
 
 ![first signal](C:\Users\LuisaPalmeira\Documents\GitHub\Eletrofisiologia\Imagem1.png)
 
-We concluded that we needed to use a better electrodes position
 
 ### Step 2 - Improved signal
 
@@ -31,38 +27,15 @@ We concluded that we needed to use a better electrodes position
 
 ### Step 3 - Defining the signal processing stages
 
-### Step 4 - Real time tests
+Translação do sinal para zero; 
+Tendo em conta que a frequência do EMG é bastante superior:
+  Aplicou-se um filtro de banda, que filtra a 5 Hz, obtendo o primeiro sinal filtrado;
+  De seguida, aplicou-se um filtro passa baixo, obtendo assim apenas o sinal ECG.
+  
+Nota: 
+Como era muito difícil separar o ECG do EMG nos dois sinais recolhidos, o filtro de banda teve de filtrar a frequências mais baixas.
 
-### Step 5 - The final outcome
+### Step 4 - The final outcome
 
-## Code example
+![final signal](C:\Users\LuisaPalmeira\Documents\GitHub\Eletrofisiologia\Imagem2.png)
 
-
-``` python
-from numpy import *
-from pylab import *
-s = randn(100)
-plot(s)
-show()
-
-```
-
-The complete code examples can be found on the github link:
-
-[Github page](https://github.com/hgamboa/novainstrumentation)
-
-
-
-## Video of the experiment
-
-We've prepared a shor video of the experiment:
-
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-
-## Take ways
-The major discoveries made in this project were: 
-
-* Scientific enlightment 
-* Eureka moment
-* Singularity vision
-* Trasncendental perception
