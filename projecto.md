@@ -61,9 +61,7 @@ s = x[:,7]
 print s
 
 t=arange(len(s))/1000.
-"""
 plot(t,s)
-"""
 
 sm = s - mean(s)
 sf = ni.code.bandpass(sm, 1., 5., fs=1000)
@@ -73,9 +71,7 @@ plot(t, sf)
 
 
 sn = ni.code.smooth(sf, window_len=10, window='hanning')
-"""
 plot(t,sn)
-"""
 
 
 
