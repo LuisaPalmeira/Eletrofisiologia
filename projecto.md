@@ -22,7 +22,7 @@ Após a colocação dos eléctrodos recolheram-se dois sinais. O melhor sinal ob
 
 ### Step 2 - Improved signal
 
-![second signal](C:\Users\LuisaPalmeira\Documents\GitHub\Eletrofisiologia\Imagem2.png?raw=true)
+![second signal](https://github.com/LuisaPalmeira/Eletrofisiologia/blob/master/Imagem2.png?raw=true)
 
 
 ### Step 3 - Defining the signal processing stages
@@ -37,5 +37,5 @@ Como era muito difícil separar o ECG do EMG nos dois sinais recolhidos, o filtr
 
 ### Step 4 - The final outcome
 
-![final signal](C:\Users\LuisaPalmeira\Documents\GitHub\Eletrofisiologia\Imagem2.png?raw=true)
+![final signal](https://github.com/LuisaPalmeira/Eletrofisiologia/blob/master/Imagem2.png?raw=true)
 
