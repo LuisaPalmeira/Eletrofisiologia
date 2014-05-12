@@ -17,7 +17,7 @@ Tratamento dos sinais recolhidos com recurso a Python, removendo o ruído de EMG
 
 Após a colocação dos eléctrodos recolheram-se dois sinais. O melhor sinal obtido no Bitalino foi:
 
-![first signal](C:\Users\LuisaPalmeira\Documents\GitHub\Eletrofisiologia\Imagem1.png?raw=true)
+![first signal](https://github.com/LuisaPalmeira/Eletrofisiologia/blob/master/Imagem1.png?raw=true)
 
 
 ### Step 2 - Improved signal
