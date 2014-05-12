@@ -39,3 +39,45 @@ Como era muito difícil separar o ECG do EMG nos dois sinais recolhidos, o filtr
 
 ![final signal](https://github.com/LuisaPalmeira/Eletrofisiologia/blob/master/Imagem2.png?raw=true)
 
+
+### Code
+
+from base64 import *
+from numpy import *
+from scipy import *
+from pylab import *
+from novainstrumentation import *
+import novainstrumentation as ni
+import numpy as np
+import scipy.interpolate as si
+#from finaltesttools import *
+
+import matplotlib.pyplot as plt
+
+x =loadtxt('C:\OpenSignals_3.0\AnaLu2.txt')
+
+s = x[:,7]
+ 
+print s
+
+t=arange(len(s))/1000.
+"""
+plot(t,s)
+"""
+
+sm = s - mean(s)
+sf = ni.code.bandpass(sm, 1., 5., fs=1000)
+xlabel('t(s)')
+ylabel('Sinal')
+plot(t, sf)
+
+
+sn = ni.code.smooth(sf, window_len=10, window='hanning')
+"""
+plot(t,sn)
+"""
+
+
+
+tight_layout ()
+show ()
