@@ -50,9 +50,7 @@ from novainstrumentation import *
 import novainstrumentation as ni
 import numpy as np
 import scipy.interpolate as si
-#from finaltesttools import *
 
-import matplotlib.pyplot as plt
 
 x =loadtxt('C:\OpenSignals_3.0\AnaLu2.txt')
 
